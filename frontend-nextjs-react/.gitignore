@@ -1,0 +1,48 @@
+Last login: Tue Nov 23 22:11:13 on ttys003
+jcgm@JoseloG-Macbook-Pro trascendente-sanity % ls
+README.md	node_modules	sanity.json	tsconfig.json
+config		package.json	schemas		yarn.lock
+dist		plugins		static
+jcgm@JoseloG-Macbook-Pro trascendente-sanity % vim .gitignore 
+jcgm@JoseloG-Macbook-Pro trascendente-sanity % cd ..
+jcgm@JoseloG-Macbook-Pro Trascendente % cd trascendente-web 
+jcgm@JoseloG-Macbook-Pro trascendente-web % vim .gitignore 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+".gitignore" 34L, 386B
+

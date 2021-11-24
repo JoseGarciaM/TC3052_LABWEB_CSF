@@ -1,0 +1,53 @@
+{
+  "name": "trascendente",
+  "private": true,
+  "version": "2.0.0",
+  "description": "",
+  "main": "package.json",
+  "author": "Jose Carlos Garcia Mendizabal <info@josegarciam.com>",
+  "license": "UNLICENSED",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.4.2",
+    "@n8tb1t/use-scroll-position": "^2.0.3",
+    "@sanity/block-content-to-react": "^3.0.0",
+    "@sanity/client": "^2.21.10",
+    "@sanity/image-url": "^1.0.1",
+    "@tailwindcss/typography": "^0.4.1",
+    "classnames": "^2.2.6",
+    "embla-carousel-react": "^6.0.2",
+    "firebase": "^8.10.0",
+    "next": "^12.0.4",
+    "next-compose-plugins": "^2.2.1",
+    "next-pwa": "^5.4.1",
+    "next-translate": "^1.2.0",
+    "preact": "^10.6.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-recipes": "^1.4.0",
+    "sharp": "^0.29.3",
+    "tailwind-scrollbar-hide": "^1.1.6",
+    "tailwindcss": "^2.2.19",
+    "tailwindcss-margin-safe": "^1.0.1",
+    "tailwindcss-padding-safe": "^1.0.5"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "eslint": "^7.32.0",
+    "eslint-config-next": "^12.0.4",
+    "eslint-config-prettier": "^8.3.0",
+    "postcss": "^8.3.11",
+    "prettier": "^2.4.1"
+  },
+  "prettier": {
+    "arrowParens": "always",
+    "singleQuote": true,
+    "tabWidth": 2,
+    "trailingComma": "none"
+  }
+}
